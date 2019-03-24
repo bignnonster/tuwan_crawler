@@ -1,8 +1,8 @@
-#tuwan 妹子图爬取
+# tuwan 妹子图爬取
 
 基于[jerryWebSpider](https://github.com/jrhu05/jerryWebSpider)的url获取逻辑而转化的python27版本。适用于没有java、mysql环境的同学。
 
-##使用方式
+## 使用方式
 
 设置获取图册的范围
 
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 python get_tuwan.py
 ```
 
-##说明
+## 说明
 - 依赖`requests`库
 - 图片组归档在`./arichive`下
 - 已经下载过的图片不会重新下载(根据文件名判断,但是不会对文件内容进行校验)
